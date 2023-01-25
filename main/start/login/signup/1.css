@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    border: 5px solid rgb(236, 234, 234);
+}
+
+input {
+    width: 90%;
+    height: 35px;
+    border: 2px solid rgb(236, 234, 234);
+    border-radius: 10px;
+}
+
+button {
+    border: 2px solid;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+#content {
+    padding-left: 5%;
+    padding-right: 1%;
+}
+
+ul {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding-right: 10%;
+}
+
+li {
+    font-size: 13px;
+}
+
+.comment {
+    padding-left: 15px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+#btn {
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    width: 40%;
+    height: 43px;
+    margin: 10px 10px 30px 10px;
+    cursor: pointer;
+
+}
+
+.btn.back {
+    background-color: rgb(236, 234, 234);
+    border-color: rgb(236, 234, 234);
+}
+
+.btn.sign {
+    background-color: rgb(66, 109, 250);
+    border-color: rgb(66, 109, 250);
+    color: white;
+}
+
+.required {
+    color: red;
+}
