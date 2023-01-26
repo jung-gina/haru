@@ -107,3 +107,6 @@ $("#media").on("click", function (e) {
     $(".media").show();
 });
 //________________________________________________
+
+function Mobile() {return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);}
+console.log(Mobile());
