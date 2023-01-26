@@ -72,7 +72,7 @@ function luanch_Start() {
             $("#luanch2").hide();
         });
         $("#luanch3").one("click", function (e) {
-            location.href = "../main/main.html";
+            location.href = "./main/main.html";
         });
 }
 //________________________________________________
@@ -82,7 +82,7 @@ $("#signin_next").on("click", function (e) {
 });
 
 $("#signin_go").on("click", function (e) {
-    location.href = "../main/main.html";
+    location.href = "./main/main.html";
 });
 //________________________________________________
 $("#signup_next").on("click", function (e) {
