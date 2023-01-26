@@ -48,6 +48,15 @@ body {
     height: 90px;
 }
 
+:root {
+    --vh: 100%;
+}
+
+html, body {
+    height: 100vh;
+    height: var(--vh);
+}
+
 .dot_bar {
     margin-top: 5px;
     width: 33%;
@@ -103,7 +112,7 @@ body {
     background-color: rgba(240, 248, 255, 0);
     border: none;
     font-size: 1.3rem;
-    
+
 }
 
 #write {
