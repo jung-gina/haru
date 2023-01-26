@@ -1,0 +1,68 @@
+.back_img {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.menu_bar {
+    background-image: url("./footer.png");
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    height: 125px;
+}
+#dot_bar {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#btn_bar {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    height: 90px;
+}
+.dot_bar {
+    width: 33%;
+    float: left;
+}
+.btn_bar {
+    width: 33%;
+    float: left;
+}
+
+#header {
+    background-image: url("./header.png");
+    position: fixed;
+    width: 100%;
+    height: 189px;
+}
+#title {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.title {
+    float: left;
+    height: 53px;
+}
+
+#box {
+    background-image: url("./write_box.png");
+}
+#write {
+    top: 50%;
+    width: 100%;
+}
