@@ -48,14 +48,6 @@ body {
     height: 90px;
 }
 
-:root {
-    --vh: 100%;
-}
-
-html, body {
-    height: 100vh;
-    height: var(--vh);
-}
 
 .dot_bar {
     margin-top: 5px;

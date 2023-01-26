@@ -3,11 +3,6 @@ $("#dot3").css("visibility", "hidden");
 $("#write").hide();
 $("#my_pg").hide();
 
-const setVh = () => {
-    document.documentElement.style.setProperty('--vh', `${window.innerHeight}px`)
-};
-window.addEventListener('resize', setVh);
-setVh();
 $("#box_input").one("click", function (e) {
     $("#box_input").val('');
 });
@@ -48,7 +43,7 @@ function rand_msg() {
     return msg_list[num] + msg_ment;
 }
 //--------------------------------
-var cont_high = screen.height - 314;
+var cont_high = window.innerHeight - 314;
 $("#main_cont").css("height", cont_high);
 $("#box").css("height", (cont_high - 200));
 $("#box_input").css("height", (cont_high - 220));
