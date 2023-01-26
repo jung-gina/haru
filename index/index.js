@@ -2,6 +2,10 @@ $("form").hide();
 $("#luanch_img").hide();
 $(".media").hide();
 
+$("#reset_btn").on("click", function(e){
+    location.reload();
+});
+
 $("#siin_id").one("click", function (e) {
     $("#siin_id").val('');
 });
