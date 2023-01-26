@@ -102,6 +102,7 @@ body {
 #box {
     border: black solid 3px;
     margin: 20px;
+    margin-top: 10px;
     border-radius: 20px;
     padding: 0;
     text-align: center;
