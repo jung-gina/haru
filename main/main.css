@@ -9,7 +9,12 @@
     padding: 0;
     border: none;
 }
-
+#date_box {
+    margin-left: 30px;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
 body {
     margin: 0;
     padding: 0;
@@ -68,12 +73,16 @@ body {
     height: 189px;
 }
 
-#title {
-    margin-top: 50px;
+#title { 
+    
+    text-align: left;
     margin-left: 20px;
+    height: 89px;
 }
 
 .title {
+    margin-top: 50px;
+    vertical-align: middle;
     float: left;
     height: 53px;
 }

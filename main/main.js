@@ -13,7 +13,10 @@ function date_box() {
     var day = date.getDay();
     const week = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
     var dayOf = week[date.getDay()];
+
+    return year + ". " + month + ". " + day + "  " + dayOf;
 }
+$("#date_box").text(date_box);
 function rand_theme() {
     var theme_list = [
         "죽음", "무인도", "당신의 인생", "딸기의 맛있음을 표현", "오늘하루 어땟나요?",
