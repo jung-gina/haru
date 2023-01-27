@@ -64,6 +64,7 @@ body {
     padding: 0;
     border: none;
 }
+
 .sign {
     position: fixed;
     text-align: center;
@@ -73,22 +74,25 @@ body {
 
 #reset_btn {
     position: fixed;
-    color: white;
-    text-decoration: white underline solid 1px;
+    color: rgba(75, 61, 28, 0.936);
+    text-decoration: rgba(75, 61, 28, 0.912) underline solid 1px;
+    background-color: rgba(240, 248, 255, 0.615);
     font-weight: 700;
     font-size: 1.3rem;
     margin-top: 30px;
     margin-left: 20px;
 }
+
 .btn {
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: 500;
+    color: rgb(195, 157, 116);
     border-radius: 10px;
     width: 40%;
     height: 43px;
-    border-color: rgb(236, 234, 234);
-    ;
+    border-color: transparent;
+    background-color: rgba(84, 50, 8, 0.842);
 }
 
 input {
@@ -102,11 +106,14 @@ input {
 
 .btn_sign {
     text-decoration-style: 15px;
-    color: black;
+    color: white;
     text-decoration-color: white;
     border-radius: 10px;
+    font-weight: bold;
     width: 80px;
     height: 40px;
+    background-color: rgba(52, 47, 37, 0.76);
+    border-color: transparent;
 }
 
 .blinking {
@@ -144,6 +151,7 @@ input {
         opacity: 1;
     }
 }
+
 #developer {
     position: fixed;
     width: 100%;

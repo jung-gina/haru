@@ -9,12 +9,14 @@
     padding: 0;
     border: none;
 }
+
 #date_box {
     margin-left: 30px;
     font-size: 2rem;
     font-weight: 700;
     margin-top: 20px;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -66,6 +68,11 @@ body {
     float: left;
 }
 
+.hd_btn {
+    border: solid rgb(107, 45, 45) 2px;
+    border-radius: 10px;
+}
+
 #header {
     background-image: url("./header.png");
     position: fixed;
@@ -73,14 +80,20 @@ body {
     height: 189px;
 }
 
-#title { 
-    
+#title {
     text-align: left;
     margin-left: 20px;
     height: 89px;
 }
 
+#title2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
 .title {
+    text-align: center;
     margin-top: 50px;
     vertical-align: middle;
     float: left;
@@ -99,8 +112,77 @@ body {
     margin: 0;
 }
 
+#title2 {
+    width: 70px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.read_box {
+    margin: 10px;
+    height: 100px;
+    border: rgb(107, 45, 45) solid 2px;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
+
+.read_t {
+    font-weight: 700;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.read_inbox {
+    height: 69px;
+}
+
+.read_m {
+    margin: 0;
+    padding-left: 5px;
+}
+
+.read_btn {
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+#read_list {
+    width: 100%;
+}
+
+#read_hd {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+
+.sort_btn {
+    margin-right: 10px;
+    border: solid 2px rgb(107, 45, 45);
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#read_pager {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    bottom: 0;
+}
+
+#pager_btn {
+    margin-right: 10px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline black 1px;
+}
+
 #box {
-    border: black solid 3px;
+    border: rgb(107, 45, 45) solid 3px;
     margin: 20px;
     margin-top: 10px;
     border-radius: 20px;
@@ -113,11 +195,10 @@ body {
     margin: 5px;
     background-color: rgba(240, 248, 255, 0);
     border: none;
-    font-size: 1.3rem;
-
+    font-size: 1.1rem;
 }
 
-#write {
+.cont_box {
     width: 100%;
     height: 100%;
     border: none;
@@ -131,7 +212,6 @@ body {
     position: fixed;
 }
 
-
 #finish_btn {
     margin-right: 30px;
     background-color: rgba(240, 248, 255, 0);
@@ -144,5 +224,4 @@ body {
     font-size: 1.3rem;
     font-weight: 700;
 }
-
 
