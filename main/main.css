@@ -71,6 +71,8 @@ body {
 .hd_btn {
     border: solid rgb(107, 45, 45) 2px;
     border-radius: 10px;
+    background-color: rgba(51, 44, 36, 0.5);
+    color: beige;
 }
 
 #header {
@@ -124,6 +126,7 @@ body {
     border: rgb(107, 45, 45) solid 2px;
     border-radius: 15px;
     font-size: 1.1rem;
+    box-shadow: 3px 3px;
 }
 
 .read_t {
@@ -179,6 +182,7 @@ body {
     font-weight: 700;
     text-align: center;
     text-decoration: underline black 1px;
+    background-color: rgba(181, 137, 86, 0.5);
 }
 
 #box {
@@ -225,3 +229,102 @@ body {
     font-weight: 700;
 }
 
+/* 0128 수정 시작 */
+.follow_count {
+    position: relative;
+    left: 10%;
+    top: 1em;
+    font-size: 20px;
+    font-weight: bolder;
+    color:rgb(107, 45, 45);
+}
+.liked_count {
+    position: relative;
+    left: 53%;
+    top: 1em;
+    font-size: 20px;
+    font-weight: bolder;
+    color:rgb(107, 45, 45);
+}
+.follow_count2 {
+    position: relative;
+    left: 17%;
+    top: 0.5em;
+    font-size: 20px;
+    font-weight: bolder;
+    color:rgb(107, 45, 45);
+}
+.liked_count2 {
+    position: relative;
+    left: 71%;
+    top: 0.5em;
+    font-size: 20px;
+    font-weight: bolder;
+    color:rgb(107, 45, 45);
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border-color: brown;
+}
+#heart_btn {
+    position: relative;
+    left: 4em;
+    width: 16%;
+    height: 5%;
+}
+#follower_btn {
+    position: relative;
+    left: 14em;
+    width: 16%;
+    height: 5%;
+}
+.name {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(54, 38, 20);
+    margin-bottom: -0.3em;
+}
+.follow_box {
+    margin: 10px 10px 20px 10px;
+    height: 60px;
+    border: rgb(107, 45, 45) solid 2px;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    box-shadow: 2px 2px;
+}
+.follow_t{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding-left: 5px;
+    text-align: center;
+    margin-bottom: -0.2em;
+}
+.follow_inbox {
+    height: 69px;
+}
+.follow_m {
+    margin: 0;
+    padding-left: 5px;
+    text-align: right;
+}
+.follow_btn {
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    text-align: right;
+}
+#follow_list {
+    width: 100%;
+}
+#follow_hd{
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    color: beige;
+}
+/* 0128 수정 끝 */

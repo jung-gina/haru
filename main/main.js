@@ -5,8 +5,17 @@ $("#my_pg").hide();
 $("#set_btn").hide();
 $("#set_box").hide();
 $("#sort_btn2").hide();
+$("#follow_user").hide();//0128 수정    
 
 //btn
+$("mark").on("click", function(e) {
+    if(confirm("팔로우를 취소하시겠습니까?")) {
+        alert("싫습니다.");
+    }
+});
+$("#set_btn").on("click", function(e) {
+    alert("설정은 앱에서 해주세요.");
+});
 $(".read_btn1").on("click", function (e) {
     alert("😍😍😍😍😍");
 });
@@ -42,6 +51,18 @@ $("#sort_btn2").on("click", function (e) {
 $("#pager_btn").on("click", function (e) {
     reload_read_list();
 });
+
+$("#follower_btn").on("click", function(e) {//0128 수정
+    $(".recommend").hide();
+    $(".follow_user").show();
+    reload_read_list();
+});
+$("#heart_btn").on("click", function(e) {//0128 수정
+    $(".recommend").show();
+    $(".follow_user").hide();
+    reload_read_list();
+});
+
 function date_box() {
     var date = new Date();
     var year = String(date.getFullYear());
@@ -108,8 +129,8 @@ $("#box").css("height", (cont_high - 200));
 $("#box_input").css("height", (cont_high - 220));
 $("#read_list").css("height", cont_high - 80);
 $("#read_list").css("overflow", "auto");
-//$("#my_list").css("height", cont_high - 250);
-$("#my_list").css("overflow", "auto");
+$(".recommend").css("height", cont_high - 170);
+$(".recommend").css("overflow", "auto");
 //--------------------------------
 $("#menu_btn1").on("click", function (e) {
     $("#dot1").css("visibility", "visible");

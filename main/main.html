@@ -163,30 +163,205 @@
                 </div>
             </div>
             <!--//////////-->
+            <!--////0128 수정한 부분 시작//////-->
             <div class="cont_box" id="my_pg">
-                <div id="my_hd">
-                    <div class="my_hd_box" id="my_box1">
-
-                    </div>
-                    <div class="my_hd_box" id="my_box2">
-
-                    </div>
-                    <div class="my_hd_box" id="my_box3">
-
+                <div class="top">
+                    <span type="text" class="follow_count">followers</span>
+                    <span type="text" class="liked_count">likes</span>
+                    <p></p>
+                    <span type="text" class="follow_count2">10</span>
+                    <span type="text" class="liked_count2">10</span>
+                </div>
+                <div id="mid">
+                    <p class="name">Name</p>
+                    <span class="b_bar"><img id="heart_btn" src="./full_heart.png" onclick="toggle(1)"></span>
+                    <span class="b_bar"><img id="follower_btn" src="./unclicked_follower.png" onclick="toggle(0)"></span>
+                    <script>
+                        function toggle(n){
+                            if (n == 0) {
+                                heart_btn.src="./empty_heart.png"
+                                follower_btn.src="./clicked_follower.png"
+                                // 3-1 실행
+                            }
+                            else if (n == 1) {
+                                heart_btn.src="./full_heart.png"
+                                follower_btn.src="./unclicked_follower.png"
+                                // 3-2 실행
+                            }
+                        }
+                    </script>
+                </div>
+                <!-- 3-1번 -->
+                <div class="recommend" id="btn">
+                    <div id="read_list">
+                        <div class="read_box" id="read_box1">
+                            <div class="read_inbox">
+                                <p class="read_t" id="read_t10"></p>
+                                <p class="read_m" id="read_m10"></p>
+                            </div>
+                            <div class="read_btn">
+                                <span class="read_btn1">😍</span><span class="read_btn2">😀</span><span
+                                    class="read_btn3">😭</span><span class="read_btn4">🙄</span><span
+                                    class="read_btn5">😤</span>
+                            </div>
+                        </div>
+                        <div class="read_box" id="read_box2">
+                            <div class="read_inbox">
+                                <p class="read_t" id="read_t20"></p>
+                                <p class="read_m" id="read_m20"></p>
+                            </div>
+                            <div class="read_btn">
+                                <span class="read_btn1">😍</span><span class="read_btn2">😀</span><span
+                                    class="read_btn3">😭</span><span class="read_btn4">🙄</span><span
+                                    class="read_btn5">😤</span>
+                            </div>
+                        </div>
+                        <div class="read_box" id="read_box3">
+                            <div class="read_inbox">
+                                <p class="read_t" id="read_t30"></p>
+                                <p class="read_m" id="read_m30"></p>
+                            </div>
+                            <div class="read_btn">
+                                <span class="read_btn1">😍</span><span class="read_btn2">😀</span><span
+                                    class="read_btn3">😭</span><span class="read_btn4">🙄</span><span
+                                    class="read_btn5">😤</span>
+                            </div>
+                        </div>
+                        <div class="read_box" id="read_box4">
+                            <div class="read_inbox">
+                                <p class="read_t" id="read_t40"></p>
+                                <p class="read_m" id="read_m40"></p>
+                            </div>
+                            <div class="read_btn">
+                                <span class="read_btn1">😍</span><span class="read_btn2">😀</span><span
+                                    class="read_btn3">😭</span><span class="read_btn4">🙄</span><span
+                                    class="read_btn5">😤</span>
+                            </div>
+                        </div>
+                        <div class="read_box" id="read_box5">
+                            <div class="read_inbox">
+                                <p class="read_t" id="read_t50"></p>
+                                <p class="read_m" id="read_m50"></p>
+                            </div>
+                            <div class="read_btn">
+                                <span class="read_btn1">😍</span><span class="read_btn2">😀</span><span
+                                    class="read_btn3">😭</span><span class="read_btn4">🙄</span><span
+                                    class="read_btn5">😤</span>
+                            </div>
+                        </div>
+                    <div class="read_box" id="read_box6">
+                            <div class="read_inbox">
+                                <p class="read_t" id="read_t6"></p>
+                                <p class="read_m" id="read_m6"></p>
+                            </div>
+                            <div class="read_btn">
+                                <span class="read_btn1">😍</span><span class="read_btn2">😀</span><span
+                                    class="read_btn3">😭</span><span class="read_btn4">🙄</span><span
+                                    class="read_btn5">😤</span>
+                            </div>
+                        </div>
+                        <div class="read_box" id="read_box7">
+                            <div class="read_inbox">
+                                <p class="read_t" id="read_t7"></p>
+                                <p class="read_m" id="read_m7"></p>
+                            </div>
+                            <div class="read_btn">
+                                <span class="read_btn1">😍</span><span class="read_btn2">😀</span><span
+                                    class="read_btn3">😭</span><span class="read_btn4">🙄</span><span
+                                    class="read_btn5">😤</span>
+                            </div>
+                        </div>
+                        <div class="read_box" id="read_box8">
+                            <div class="read_inbox">
+                                <p class="read_t" id="read_t8"></p>
+                                <p class="read_m" id="read_m8"></p>
+                            </div>
+                            <div class="read_btn">
+                                <span class="read_btn1">😍</span><span class="read_btn2">😀</span><span
+                                    class="read_btn3">😭</span><span class="read_btn4">🙄</span><span
+                                    class="read_btn5">😤</span>
+                            </div>
+                        </div>
+                        <div class="read_box" id="read_box9">
+                            <div class="read_inbox">
+                                <p class="read_t" id="read_t9"></p>
+                                <p class="read_m" id="read_m9"></p>
+                            </div>
+                            <div class="read_btn">
+                                <span class="read_btn1">😍</span><span class="read_btn2">😀</span><span
+                                    class="read_btn3">😭</span><span class="read_btn4">🙄</span><span
+                                    class="read_btn5">😤</span>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
-                <div id="my_hd_btn">
-                    <span class="my_hd_btn" id="my_btn11"></span>
-                    <span class="my_hd_btn" id="my_btn12"></span>
-                    <span class="my_hd_btn" id="my_btn21"></span>
-                    <span class="my_hd_btn" id="my_btn22"></span>
+                <!-- 3-2번 -->
+                <div class="follow_user recommend" id="btn">
+                    <div id="follow_list">
+                        <div class="follow_box" id="follow_box1">
+                            <div class="follow_inbox">
+                                <p class="follow_t" id="follow_t1">Name</p>
+                                <p class="follow_m" id="follow_m1"><mark style="background-color: rgba(54, 38, 20, 0.73); color:rgb(208, 189, 141); border-radius: 10px; padding: 2px 2px 3px 3px">팔로잉</mark></p>
+                            </div>
+                        </div>
+                        <div class="follow_box" id="follow_box2">
+                            <div class="follow_inbox">
+                                <p class="follow_t" id="follow_t2">Name</p>
+                                <p class="follow_m" id="follow_m2"><mark style="background-color: rgba(54, 38, 20, 0.73); color:rgb(208, 189, 141); border-radius: 10px; padding: 2px 2px 3px 3px">팔로잉</mark></p>
+                            </div>
+                        </div>
+                        <div class="follow_box" id="follow_box3">
+                            <div class="follow_inbox">
+                                <p class="follow_t" id="follow_t3">Name</p>
+                                <p class="follow_m" id="follow_m3"><mark style="background-color: rgba(54, 38, 20, 0.73); color:rgb(208, 189, 141); border-radius: 10px; padding: 2px 2px 3px 3px">팔로잉</mark></p>
+                            </div>
+                        </div>
+                        <div class="follow_box" id="follow_box4">
+                            <div class="follow_inbox">
+                                <p class="follow_t" id="follow_t4">Name</p>
+                                <p class="follow_m" id="follow_m4"><mark style="background-color: rgba(54, 38, 20, 0.73); color:rgb(208, 189, 141); border-radius: 10px; padding: 2px 2px 3px 3px">팔로잉</mark></p>
+                            </div>
+                        </div>
+                        <div class="follow_box" id="follow_box5">
+                            <div class="follow_inbox">
+                                <p class="follow_t" id="follow_t5">Name</p>
+                                <p class="follow_m" id="follow_m5"><mark style="background-color: rgba(54, 38, 20, 0.73); color:rgb(208, 189, 141); border-radius: 10px; padding: 2px 2px 3px 3px">팔로잉</mark></p>
+                            </div>
+                        </div>
+                        <div class="follow_box" id="follow_box6">
+                            <div class="follow_inbox">
+                                <p class="follow_t" id="follow_t6">Name</p>
+                                <p class="follow_m" id="follow_m6"><mark style="background-color: rgba(54, 38, 20, 0.73); color:rgb(208, 189, 141); border-radius: 10px; padding: 2px 2px 3px 3px">팔로잉</mark></p>
+                            </div>
+                        </div>
+                        <div class="follow_box" id="follow_box7">
+                            <div class="follow_inbox">
+                                <p class="follow_t" id="follow_t7">Name</p>
+                                <p class="follow_m" id="follow_m7"><mark style="background-color: rgba(54, 38, 20, 0.73); color:rgb(208, 189, 141); border-radius: 10px; padding: 2px 2px 3px 3px">팔로잉</mark></p>
+                            </div>
+                        </div>
+                        <div class="follow_box" id="follow_box8">
+                            <div class="follow_inbox">
+                                <p class="follow_t" id="follow_t8">Name</p>
+                                <p class="follow_m" id="follow_m8"><mark style="background-color: rgba(54, 38, 20, 0.73); color:rgb(208, 189, 141); border-radius: 10px; padding: 2px 2px 3px 3px">팔로잉</mark></p>
+                            </div>
+                        </div>
+                        <div class="follow_box" id="follow_box9">
+                            <div class="follow_inbox">
+                                <p class="follow_t" id="follow_t9">Name</p>
+                                <p class="follow_m" id="follow_m9"><mark style="background-color: rgba(54, 38, 20, 0.73); color:rgb(208, 189, 141); border-radius: 10px; padding: 2px 2px 3px 3px">팔로잉</mark></p>
+                            </div>
+                        </div>
+                        <div class="follow_box" id="follow_box10">
+                            <div class="follow_inbox">
+                                <p class="follow_t" id="follow_t10">Name</p>
+                                <p class="follow_m" id="follow_m10"><mark style="background-color: rgba(54, 38, 20, 0.73); color:rgb(208, 189, 141); border-radius: 10px; padding: 2px 2px 3px 3px">팔로잉</mark></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="my_list">
-
-                </div>
-                
-
-            </div>
+<!--////0128 수정한 부분 끝//////-->
             <!--//////////-->
             <div class="cont_box" id="set_box">
             </div>
